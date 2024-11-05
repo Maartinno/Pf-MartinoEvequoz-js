@@ -1,0 +1,22 @@
+[
+    { "id": 1, "nombre": "Laptop", "precio": 30, "imagen": "https://via.placeholder.com/150?text=Laptop" },
+    { "id": 2, "nombre": "Smartphone", "precio": 20, "imagen": "https://via.placeholder.com/150?text=Smartphone" },
+    { "id": 3, "nombre": "Tablet", "precio": 15, "imagen": "https://via.placeholder.com/150?text=Tablet" },
+    { "id": 4, "nombre": "Audífonos", "precio": 5, "imagen": "https://via.placeholder.com/150?text=Audifonos" },
+    { "id": 5, "nombre": "Teclado", "precio": 8, "imagen": "https://via.placeholder.com/150?text=Teclado" },
+    { "id": 6, "nombre": "Mouse", "precio": 6, "imagen": "https://via.placeholder.com/150?text=Mouse" },
+    { "id": 7, "nombre": "Monitor", "precio": 70, "imagen": "https://via.placeholder.com/150?text=Monitor" },
+    { "id": 8, "nombre": "Impresora", "precio": 40, "imagen": "https://via.placeholder.com/150?text=Impresora" },
+    { "id": 9, "nombre": "Cámara", "precio": 90, "imagen": "https://via.placeholder.com/150?text=Cámara" },
+    { "id": 10, "nombre": "Consola de Videojuegos", "precio": 100, "imagen": "https://via.placeholder.com/150?text=Consola" },
+    { "id": 11, "nombre": "Reloj Inteligente", "precio": 75, "imagen": "https://via.placeholder.com/150?text=Reloj+Inteligente" },
+    { "id": 12, "nombre": "Bocina Bluetooth", "precio": 30, "imagen": "https://via.placeholder.com/150?text=Bocina+Bluetooth" },
+    { "id": 13, "nombre": "Tablet Grande", "precio": 50, "imagen": "https://via.placeholder.com/150?text=Tablet+Grande" },
+    { "id": 14, "nombre": "Control Remoto", "precio": 25, "imagen": "https://via.placeholder.com/150?text=Control+Remoto" },
+    { "id": 15, "nombre": "Cargador", "precio": 15, "imagen": "https://via.placeholder.com/150?text=Cargador" },
+    { "id": 16, "nombre": "Router", "precio": 55, "imagen": "https://via.placeholder.com/150?text=Router" },
+    { "id": 17, "nombre": "Microondas", "precio": 50, "imagen": "https://via.placeholder.com/150?text=Microondas" },
+    { "id": 18, "nombre": "Refrigerador", "precio": 200, "imagen": "https://via.placeholder.com/150?text=Refrigerador" },
+    { "id": 19, "nombre": "Licuadora", "precio": 35, "imagen": "https://via.placeholder.com/150?text=Licuadora" },
+    { "id": 20, "nombre": "Plancha", "precio": 25, "imagen": "https://via.placeholder.com/150?text=Plancha" }
+]

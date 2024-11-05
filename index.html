@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Tienda de Productos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header con navegación -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Título principal -->
+    <h1 class="titulo">Tienda de Productos</h1>
+
+    <!-- Contenedor de productos -->
+    <section class="container">
+        <!-- Lista de productos -->
+        
+    </section>
+
+    <!-- Modal de detalles del producto -->
+    <div id="modalProducto" class="modal">
+        <div class="modal-contenido" id="modalContenido">
+            <span class="cerrar" onclick="cerrarModal()">&times;</span>
+            <img id="modalImagen" src="" alt="Imagen del Producto">
+            <h2 id="modalNombre"></h2>
+            <p id="modalPrecio"></p>
+            <input type="number" id="modalCantidad" placeholder="Cantidad" min="1">
+            <button id="agregarAlCarritoDesdeModal" onclick="agregarAlCarritoDesdeModal()">Agregar al Carrito</button>
+        </div>
+    </div>
+
+    <!-- Modal del carrito -->
+    <div id="modalCarrito" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar" onclick="cerrarCarrito()">&times;</span>
+            <h2>Carrito de Compras</h2>
+            <ul id="lista-carrito"></ul>
+            <p id="total"></p>
+            <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+            <button onclick="pagar()">Pagar</button>
+        </div>
+    </div>
+
+    <!-- Botón para abrir el carrito -->
+    <button class="ver-carrito" onclick="abrirCarrito()">Ver mi carrito</button>
+
+    <div class="filter-buttons">
+        <button onclick="mostrarProductosCaros()">Productos con precio > $50</button>
+        <button onclick="mostrarProductosEconomicos()">Productos con precio ≤ $50</button>
+        <button onclick="aplicarDescuento()">Aplicar 10% de descuento</button>
+    </div>
+    
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Tienda de Productos. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Enlace al archivo JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
